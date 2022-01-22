@@ -1,3 +1,4 @@
 build/
 dist/
 pyguru.egg-info/
+*/__pycache__/

@@ -9,7 +9,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = "0.0.2"
+VERSION = "0.0.3"
 DESCRIPTION = "Labguru API python support"
 LONG_DESCRIPTION = "Python wrapper for the Labguru RESTful API"
 
@@ -24,7 +24,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
-    install_requires=['requests','json','pandas','numpy'],
+    install_requires=['requests','pandas','numpy'],
     keywords=['python','labguru','pyguru','lab','guru'],
 
 
