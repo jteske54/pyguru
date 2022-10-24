@@ -24,7 +24,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
-    install_requires=['requests','pandas','numpy'],
+    install_requires=['requests','pandas','numpy','json'],
     keywords=['python','labguru','pyguru','lab','guru'],
 
 
